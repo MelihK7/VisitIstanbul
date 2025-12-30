@@ -2,7 +2,7 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
-    background: linear-gradient(rgb(76, 209, 253), rgb(255, 62, 62)); 
+    background: linear-gradient(rgb(76, 209, 253), rgb(193, 237, 255)); 
     background-repeat: no-repeat;
     margin: 0px;
     color: white;
@@ -60,14 +60,12 @@ body {
 #überSection {
     margin-top: 0px;
     background-color: #dfe6dc;
-    border: 2px solid cyan;
     height: 600px;
 }
 
 #topActivitesSection {
     display: flex;
     align-items: center;
-    border: 2px dotted magenta;
     border-radius: 10px;
     height: 500px;
     justify-content: space-around;
@@ -75,36 +73,32 @@ body {
 
 #activitesTitle {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 0px 0px 0px;
     font-style: italic;
     font-weight: bold;
     font-size: 28px;
-    margin: 20px 0px 5px 0px;
+    margin: 20px 0px 0px 0px;
     color: rgb(27,47,67);
 }
 
 .activityGroup {
     padding: 10px;
-    border: 2px solid orange;
     width: 25%;
+    margin-top: 5px;
 }
 
 .SpecificActivityTitle {
     font-weight: bold;
     font-size: 30px;
+    color: rgb(27,47,67);
 }
 
 .SpecificActivityParagraph {
     font-size: 18px;
+    color: rgb(27,47,67);
 }
 
-#firstActivity {
-    display: flex;
-    margin-top: 20px;
 
-    border: 2px solid greenyellow;
-
-}
 
 .activityPicture {
     border-radius: 50%;
@@ -120,7 +114,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 30px;
-    
+
     background-color: rgb(178,217,218);
     border-bottom: 8px solid darkcyan;
 
