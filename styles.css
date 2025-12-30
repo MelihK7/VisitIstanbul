@@ -1,0 +1,43 @@
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(76, 209, 253), rgb(255, 62, 62)); 
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+#hero-title {
+    font-size: 40px;
+    background-color: blue;
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-shadow: 2px 4px 4px black;
+}
+
+.hero-section {
+
+    display:flex;
+    flex-direction: column;
+    border: 2px dotted white;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url("images/IstanbulWallpaper.jpg");
+    background-size: cover;
+    background-position: center 15%;
+
+}
+
+#hero-picture {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border: 2px dotted pink;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/03/53/istanbul-1868667_1280.jpg');
+}
