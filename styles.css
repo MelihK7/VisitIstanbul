@@ -120,4 +120,11 @@ body {
 
     width: 700px;
     margin: 30px auto;
+
+    border-radius: 15px;
+   
+}
+
+.profile {
+    border-radius: 15px;
 }
