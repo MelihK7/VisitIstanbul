@@ -67,25 +67,44 @@ body {
 /* Top activities section */
 
 
-.topActivitesSection {
+#topActivitesSection {
     display: flex;
     
-    flex-direction: column;
     align-items: center;
-    border: 2px dotted white;
+    border: 2px dotted magenta;
     border-radius: 10px;
-    height: 300px;
+    height: 500px;
 
+    background-color: gray;
 }
 
 #activitesTitle {
-
+    display: inline-block;
     background-color: rgba(20, 15, 10, 0.6);
-  
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-style: italic;
+    margin: 20px 0px 5px 0px;
 }
 
-.underGroupDesign {
-    background-image: url("");
-    
+.activityGroup {
+    padding: 10px;
+    border: 2px solid orange;
+}
 
+#firstActivity {
+    display: flex;
+    margin-top: 20px;
+
+    border: 2px solid greenyellow;
+
+}
+
+.activityPicture {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-position: center;
+    object-fit: cover;
+    border: 4px solid white;
 }
